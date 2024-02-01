@@ -1,0 +1,64 @@
+.container {
+  text-align: center;
+}
+.title {
+  margin-top: 50px;
+  color: white;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title span {
+  color: #26ffcb;
+  padding-left: 15px;
+}
+.reset {
+  width: 140px;
+  height: 40px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 50px;
+  background: #26ffcb;
+  color: white;
+  font-size: 20px;
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+.boxes {
+  display: flex;
+  height: 90px;
+  width: 90px;
+  background: #c9c9c9;
+  border: 4px solid #111111;
+  border-radius: 12px;
+  cursor: pointer;
+}
+.board {
+  height: 300px;
+  width: 300px;
+  display: flex;
+  margin: auto;
+}
+.boxes img {
+  margin: 25px 25px;
+}
+.status {
+  color: white;
+  font-size: 25px;
+  margin-top: 1rem;
+}
+.score {
+  color: white;
+  font-size: 25px;
+  margin-bottom: 1rem;
+}
+.skr {
+  color: #26ffcb;
+}
+@media only screen and (max-width: 768px) {
+  .title {
+    display: block;
+  }
+}
